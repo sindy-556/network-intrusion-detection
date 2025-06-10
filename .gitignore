@@ -1,3 +1,10 @@
+# Claude Code files
+.claude/
+CLAUDE.md
+
+# Python version file
+.python-version
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
