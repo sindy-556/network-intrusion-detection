@@ -33,7 +33,7 @@ A modern machine learning-based intrusion detection system built with Python and
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sindy-556/network-intrusion-detection.git
    cd network-intrusion-detection
    ```
 
@@ -42,17 +42,12 @@ A modern machine learning-based intrusion detection system built with Python and
    uv sync
    ```
 
-3. **Download NSL-KDD dataset** and place in `data/` directory:
-   - `data/KDDTrain+.csv` - Training dataset
-   - `data/KDDTest+.csv` - Test dataset
-   - Download from: https://www.unb.ca/cic/datasets/nsl.html
-
-4. **Run the application**:
+3. **Run the application**:
    ```bash
    streamlit run app/app.py
    ```
 
-5. **Access the interface**: Open http://localhost:8501 in your browser
+4. **Access the interface**: Open http://localhost:8501 in your browser
 
 ## 📁 Project Structure
 
@@ -121,32 +116,6 @@ The NSL-KDD dataset is an improved version of the KDD Cup 1999 dataset:
 - **Features**: 41 features per connection record
 - **Attack categories**: DoS, Probe, R2L, U2R + Normal
 - **Attack types**: 39 specific attack types mapped to 4 main categories
-
-## 🚀 Version 2.0 Improvements
-
-### New Features
-- **Auto-loading System**: Automatic dataset detection and processing
-- **Component Architecture**: Modular Streamlit pages for better maintainability
-- **Enhanced EDA**: Interactive analysis with clustering and dimensionality reduction
-- **Streamlined Predictions**: Simplified single prediction interface
-- **Session Management**: Persistent state across navigation
-
-### Technical Improvements
-- **3-column Plot Layout**: Optimised visualisation display (3 plots per row)
-- **Grouped Feature Selection**: Organised feature selectors for better UX
-- **Fixed Prediction Pipeline**: Resolved feature mismatch issues
-- **Performance Optimisation**: Sampling options for large datasets
-- **Better Error Handling**: Comprehensive error messages and user feedback
-
-### Code Quality
-- **British Spelling**: Consistent spelling conventions throughout
-- **Google Docstrings**: Professional documentation format
-- **Modern Python**: Python 3.12+ features and type hints
-- **Clean Architecture**: Single responsibility principle
-
-## 🤝 Contributing
-
-This project follows conventional commit practices and maintains high code quality standards. See CLAUDE.md for detailed development guidelines.
 
 ## 📄 License
 
